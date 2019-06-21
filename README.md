@@ -20,7 +20,12 @@ For speed, MJS  has a variety of components that go from lower level than ASM (e
 A simple function that takes the arguments `greeting` and `name` to produce a string with the two joined together with a space looks like this. E.g. "hello" and "mjs" would produce `hello mjs`
 
 ```
-__ADDTOSTACK(_SYS_MJS_POSITION_IN_MEMORY___sys_mem)._native_mjs_callback_(__ADDTOSTACK("greeting name"._native_mjs_extension_args_()._unsafe_throwable_native_mjs_converter_factory(**&TOP_STACK_NATIVE_MJS_ARGUMENT__FIRST_AND_SECOND)))._native_mjs_extension_args_("greeting name")._native_mjs_extension_arg_types_("SYS_DEPENDANT_NON_NATIVE_MJS_STRING_CHAR_MACRO_TYPE")._unsafe_throwable_native_mjs_converter_factory_(*&SYS_DEPENDANT_NON_NATIVE_MJS_NULL___OF_POINTER)
+__ADDTOSTACK(_SYS_MJS_POSITION_IN_MEMORY___sys_mem)._native_mjs_callback_(__ADDTOSTACK(
+"greeting name"._native_mjs_extension_args_()._unsafe_throwable_native_mjs_converter_fa
+ctory(**&TOP_STACK_NATIVE_MJS_ARGUMENT__FIRST_AND_SECOND)))._native_mjs_extension_args_
+("greeting name")._native_mjs_extension_arg_types_("SYS_DEPENDANT_NON_NATIVE_MJS_STRING
+_CHAR_MACRO_TYPE")._unsafe_throwable_native_mjs_converter_factory_(*&SYS_DEPENDANT_NON_
+NATIVE_MJS_NULL___OF_POINTER)
 ``` 
 
 #### Explained
